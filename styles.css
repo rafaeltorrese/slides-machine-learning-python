@@ -43,22 +43,26 @@ h3 {
     text-transform: uppercase;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+ol {
+    list-style-type: decimal;
+    padding-left: 3%;
 }
 
-ul li {
+li {
     margin: 0.5rem 0;
+    padding-left: 1%;
+    font-size: 1.5rem;
 }
 
-ul li a {
+
+
+ol li a {
     text-decoration: none;
     color: #007bff;
     font-size: 1.5rem;
 }
 
-ul li a:hover {
+ol li a:hover {
     text-decoration: underline;
 }
 
